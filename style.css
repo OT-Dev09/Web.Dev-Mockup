@@ -8,15 +8,25 @@
 }
 
 body {
-    zoom: -1;
+    zoom: 1;
+    background-color: #FFFFFF;
 }
 
+
+#Bigheader {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: #FFFFFF;
+    zoom: 1;
+
+}
 
 header {
     border: 2px solid purple;
     display: flex;
     height: 55px;
-    width: 2000px;
+    width: 1905px;
 }
 
 .headerdiv {
@@ -72,18 +82,43 @@ header nav a:hover {
 .lastchild {
     display: inline-block;
     margin-left: 730px;
-    /* border: 2px solid red; */
     padding: 10px 6px;
-    
+    justify-content: center;
 }
 
+.header2 {
+    height: 75px;
+    background-color: #1A73E8;
 
-.lastchild:hover {
-    /* border: none; */
-    background-color: #F5F6F7;
-    border-radius: 25px;
-    
 }
+
+.header3 {
+    color: #303F9F;
+    display: flex;
+    padding: 15px 220px;
+    background-color: #E8F0FE;
+}
+
+.p1 {
+    font-family: "Google Sans", sans-serif;
+    font-weight: 110;
+    font-size: 15px;
+    margin-left: 23px;
+    padding: 25px 0;
+    color: whitesmoke;
+}
+
+.anchor {
+    margin-left: 0;
+    color: #303F9F;
+    text-decoration: underline;
+}
+
+/* .annchor:hover {
+    touch-action: none;
+} */
+
+
 
 
 .bold-text {
@@ -97,19 +132,23 @@ img {
 
 .h1 {
     padding-top: 3px;
-    /* padding-bottom: 15px; */
-    font-size: 50px;
-
+    font-family: "Google Sans", sans-serif;
+    font-size: 60px;
+    font-weight: 500px;
+    line-height: 1.1;
 }
 
 .para {
-    padding-top: 40px;
+    padding-top: 30px;
     font-size: 22px;
+    line-height: 1.4;
 }
 
 .flex-parent {
     display: flex;
-    margin: 30px 312.5px;
+    margin-top: 230px;
+    margin-left:  312.5px;
+    margin-right: 312.5px;
     padding: 25px 25px;
 
 }
@@ -119,16 +158,16 @@ img {
     width: 50%;
 }
 .flex-child:nth-child(2) {
-    width: 47%;
-    padding: 50px 50px;
+    width: 50%;
+    padding: 65px 50px;
 }
 
 .flex-parent2 {
     display: flex;
-    margin: 10px 312.5px;
+    margin: 0 312.5px;
     justify-content: space-between;
     gap: 22px;
-    padding: 25px 25px;
+    padding: 2px 25px;
 }
 
 .flex-child2:nth-child(1) {
