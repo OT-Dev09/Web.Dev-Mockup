@@ -23,9 +23,9 @@ body {
 }
 
 header {
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     display: flex;
-    height: 55px;
+    height: 53px;
     width: 1905px;
 }
 
@@ -38,7 +38,7 @@ header {
 
 header nav a {
     row-gap: 20px;
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     justify-content: center;
     
 }
@@ -84,27 +84,40 @@ header nav a:hover {
     margin-left: 730px;
     padding: 10px 6px;
     justify-content: center;
+    font-stretch: 100%;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Google Sans", sans-serif;
 }
 
 .header2 {
-    height: 75px;
+    height: 130px;
     background-color: #1A73E8;
+    display: flex;
 
 }
 
 .header3 {
     color: #303F9F;
     display: flex;
-    padding: 15px 220px;
+    padding: 20px 220px;
     background-color: #E8F0FE;
+    font-stretch: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Google Sans", sans-serif;
+    display: flex;
+    height: 63px;
 }
 
 .p1 {
+    /* border: 50px solid purple; */
     font-family: "Google Sans", sans-serif;
-    font-weight: 110;
-    font-size: 15px;
+    font-weight: 400;
+    font-stretch: 100%;
+    font-size: 16px;
     margin-left: 23px;
-    padding: 25px 0;
+    margin-top:83px;
     color: whitesmoke;
 }
 
@@ -146,7 +159,7 @@ img {
 
 .flex-parent {
     display: flex;
-    margin-top: 230px;
+    margin-top: 38px;
     margin-left:  312.5px;
     margin-right: 312.5px;
     padding: 25px 25px;
